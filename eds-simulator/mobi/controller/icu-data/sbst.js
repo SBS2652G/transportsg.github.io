@@ -393,6 +393,92 @@ EDSDataSet['SBST'] = {
             }
         ]
     },
+     1621: {
+        renderType: 'standardService',
+        serviceNumber: '162',
+        serviceFont: 'full',
+        destination: {
+            text: "SHENTON WAY TER",
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "ANG MO KIO AVE 6",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 8",
+                "font": "narrow"
+            },
+            {
+                "text": "BISHAN ST 22",
+                "font": "narrow"
+            },
+            {
+                "text": "SIN MING AVE",
+                "font": "narrow"
+            },
+            {
+               "text": "UPPER THOMSON RD",
+               "font": "narrow"
+                 },
+            {
+               "text": "THOMSON RD",
+               "font": "narrow"
+                 },
+            {
+               "text": "ORCHARD RD",
+               "font": "narrow"
+                 },
+            {
+               "text": "BRAS BASAH RD",
+               "font": "narrow"
+            }
+        ]
+    },
+     1622: {
+        renderType: 'standardService',
+        serviceNumber: '162',
+        serviceFont: 'full',
+        destination: {
+            text: "YIO CHU KANG INT",
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "STAMFORD RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ORCHARD TURN",
+                "font": "narrow"
+            },
+            {
+                "text": "THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "UPP THOMSON RD",
+                "font": "narrow"
+            },
+            {
+               "text": "SIN MING AVE",
+               "font": "narrow"
+                 },
+            {
+               "text": "BISHAN ST 22",
+               "font": "narrow"
+                 },
+            {
+               "text": "ANG MO KIO AVE 8",
+               "font": "narrow"
+                 },
+            {
+               "text": "ANG MO KIO AVE 6",
+               "font": "narrow"
+            }
+        ]
+    },
     1741: {
         renderType: 'standardService',
         serviceNumber: '174',
