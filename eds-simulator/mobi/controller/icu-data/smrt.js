@@ -262,7 +262,19 @@ EDSDataSet['SMRT'] = {
                 showDest: false
             },
             {
+                text: 'CHOA CHU KANG AVE 4',
+                font: 'thin'
+            },
+            {
+                text: 'CHOA CHU KANG AVE 2',
+                font: 'thin'
+            },
+            {
                 text: 'CHOA CHU KANG WAY',
+                font: 'thin'
+            },
+            {
+                text: 'CHOA CHU KANG AVE 3',
                 font: 'thin'
             },
         ]
@@ -282,9 +294,25 @@ EDSDataSet['SMRT'] = {
                 showDest: false
             },
             {
-                text: 'CHOA CHU KANG WAY',
+                text: 'C.C.K WAY',
+                font: 'thick'
+            },
+            {
+                text: 'C.C.K AVE 2,3',
                 font: 'thin'
             },
+            {
+                text: 'C.C.K AVENUE 5',
+                font: 'thin'
+            },
+            {
+                text: 'KEAT HONG CLOSE (LOOP)',
+                font: 'tall'
+            },
+            {
+                text: 'C.C.K AVE 6,1',
+                font: 'thin'
+            }
         ]
     },
     229: {

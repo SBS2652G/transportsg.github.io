@@ -48,31 +48,6 @@ EDSTemplateSet['SBST'] = {
             align: 'left'
         }
     ],
-    ffwSvc: [
-        { // Render svc
-            variables: {
-                serviceNumber: '$serviceNumber'
-            },
-            font: '$serviceFont',
-            format: '<serviceNumber,,0>',
-            spaceWidth: 1,
-            align: 'right'
-        },
-        {
-            variables: {
-            },
-            font: 'thick',
-            format: '',
-            spaceWidth: 1,
-            align: 'left',
-            images: [
-                {
-                    name: 'ffw',
-                    x: 0
-                }
-            ]
-        }
-    ],
     expSvc: [
         { // Render svc
             variables: {
@@ -159,6 +134,61 @@ EDSDataSet['SBST'] = {
                 "font": "narrow"
             }
         ]
+    },
+    111: {
+        renderType: 'int-loopSvc',
+        serviceNumber: '11',
+        serviceFont: 'full',
+        destination: {
+            text: 'LOR 1 GEYLANG TER-RHU CROSS',
+            font: 'tall'
+        },
+        scrolls: [
+            {
+                "text": "SIMS WAY",
+                "font": "narrow"
+            },
+            {
+                "text": "STADIUM CRESCENT",
+                "font": "narrow"
+            },
+            {
+                "text": "RHU CROSS",
+                "font": "narrow"
+            },
+            {
+                "text": "STADIUM WALK",
+                "font": "narrow"
+            },
+            {
+                "text": "SIMS WAY",
+                "font": "narrow"
+            }
+        ]
+    },
+    108: {
+        renderType: 'expSvc',
+        serviceNumber: '10e',
+        serviceFont: 'full',
+        text: 'EXPRESS 10e'
+    },
+    109: {
+        renderType: 'expSvc',
+        serviceNumber: '10e',
+        serviceFont: 'full',
+        text: 'EXPRESS 10e'
+    },
+    148: {
+        renderType: 'expSvc',
+        serviceNumber: '14e',
+        serviceFont: 'full',
+        text: 'EXPRESS 14e'
+    },
+    149: {
+        renderType: 'expSvc',
+        serviceNumber: '14e',
+        serviceFont: 'full',
+        text: 'EXPRESS 14e'
     },
     561: {
         renderType: 'int-loopSvc',
@@ -323,6 +353,45 @@ EDSDataSet['SBST'] = {
             }
         ]
     },
+    911: {
+        renderType: 'int-loopSvc',
+        serviceNumber: '91',
+        serviceFont: 'full',
+        destination: {
+            text: 'BUONA V TER-AYER RAJAH CRES',
+            font: 'tall'
+        },
+        scrolls: [
+            {
+                "text": "C'WEALTH AVE",
+                "font": "narrow"
+            },
+            {
+                "text": "NTH BUONA VISTA RD",
+                "font": "narrow"
+            },
+            {
+                "text": "AYER RAJAH AVE",
+                "font": "narrow"
+            },
+            {
+                "text": "AYER RAJAH CRES",
+                "font": "narrow"
+            },
+            {
+                "text": "AYER RAJAH AVE",
+                "font": "narrow"
+            },
+            {
+                "text": "NTH BUONA VISTA RD",
+                "font": "narrow"
+            },
+            {
+                "text": "C'WEALTH AVE",
+                "font": "narrow"
+            }
+        ]
+    },
     1072: {
         renderType: 'standardService',
         serviceNumber: '107',
@@ -363,7 +432,7 @@ EDSDataSet['SBST'] = {
         serviceNumber: '120',
         serviceFont: 'full',
         destination: {
-            text: 'KG. BAHRU TER-TK. BLANGAH',
+            text: 'KG.BAHRU TER-TK.BLANGAH',
             font: 'tall'
         },
         scrolls: [
@@ -754,49 +823,6 @@ EDSDataSet['SBST'] = {
         serviceFont: 'full',
         text: 'EXPRESS 151e'
     },
-    1661: {
-        renderType: 'standardService',
-        serviceNumber: '166',
-        serviceFont: 'full',
-        destination: {
-            text: 'CLEMENTI INT',
-            font: 'thin2'
-        },
-        scrolls: [
-            {
-                "text": "ANG MO KIO AVE 3",
-                "font": "narrow"
-            },
-            {
-                "text": "UPP THOMSON RD",
-                "font": "narrow"
-            },
-            {
-                "text": "THOMSON RD",
-                "font": "narrow"
-            },
-            {
-                "text": "NEW BRIDGE RD",
-                "font": "narrow"
-            },
-            {
-                "text": "KAMPONG BAHRU RD",
-                "font": "narrow"
-            },
-            {
-                "text": "TELOK BLANGAH RD",
-                "font": "narrow"
-            },
-            {
-                "text": "ALEXANDRA RD",
-                "font": "narrow"
-            },
-            {
-                "text": "C'WEALTH AVE WEST",
-                "font": "narrow"
-            }
-        ]
-    },
 
     1621: {
         renderType: 'standardService',
@@ -837,6 +863,94 @@ EDSDataSet['SBST'] = {
             },
             {
                 "text": "BRAS BASAH RD",
+                "font": "narrow"
+            }
+        ]
+    },
+
+    1622: {
+        renderType: 'standardService',
+        serviceNumber: '162',
+        serviceFont: 'full',
+        destination: {
+            text: 'YIO CHU KANG INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "STAMFORD RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ORCHARD TURN",
+                "font": "narrow"
+            },
+            {
+                "text": "THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "UPPER THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "SIN MING AVE",
+                "font": "narrow"
+            },
+            {
+                "text": "BISHAN ST 22",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 8",
+                "font": "narrow"
+            },
+
+            {
+                "text": "ANG MO KIO AVE 6",
+                "font": "narrow"
+            }
+        ]
+    },
+    1661: {
+        renderType: 'standardService',
+        serviceNumber: '166',
+        serviceFont: 'full',
+        destination: {
+            text: 'CLEMENTI INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "ANG MO KIO AVE 3",
+                "font": "narrow"
+            },
+            {
+                "text": "UPP THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "NEW BRIDGE RD",
+                "font": "narrow"
+            },
+            {
+                "text": "KAMPONG BAHRU RD",
+                "font": "narrow"
+            },
+            {
+                "text": "TELOK BLANGAH RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ALEXANDRA RD",
+                "font": "narrow"
+            },
+            {
+                "text": "C'WEALTH AVE WEST",
                 "font": "narrow"
             }
         ]
@@ -966,11 +1080,17 @@ EDSDataSet['SBST'] = {
             }
         ]
     },
-    1743: {
-        renderType: 'ffwSvc',
+    1748: {
+        renderType: 'expSvc',
         serviceNumber: '174e',
         serviceFont: 'full',
-        text: 'FAST FORWARD 174'
+        text: 'EXPRESS 174'
+    },
+    1749: {
+        renderType: 'expSvc',
+        serviceNumber: '174e',
+        serviceFont: 'full',
+        text: 'EXPRESS 174'
     },
     2222: {
         renderType: 'image',
@@ -1219,36 +1339,36 @@ EDSDataSet['SBST'] = {
         ]
     },
     2611: {
-       renderType: 'standardService',
-       serviceNumber: '261',
-       serviceFont: 'full',
-       destination: {
-           text: 'ANG MO KIO INT',
-           font: 'thin2'
-       },
-       scrolls: [
-           {
-               text: 'ANG MO KIO AVE 3',
-               font: 'narrow'
-           },
-           {
-               text: 'ANG MO KIO AVE 10',
-               font: 'narrow'
-           },
-           {
-               text: 'ANG MO KIO IND PK 1',
-               font: 'narrow'
-           },
-           {
-               text: 'ANG MO KIO AVE 10',
-               font: 'narrow'
-           },
-           {
-               text: 'ANG MO KIO AVE 3',
-               font: 'narrow'
-           }
-       ]
-   },
+        renderType: 'standardService',
+        serviceNumber: '261',
+        serviceFont: 'full',
+        destination: {
+            text: 'ANG MO KIO INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                text: 'ANG MO KIO AVE 3',
+                font: 'narrow'
+            },
+            {
+                text: 'ANG MO KIO AVE 10',
+                font: 'narrow'
+            },
+            {
+                text: 'ANG MO KIO IND PK 1',
+                font: 'narrow'
+            },
+            {
+                text: 'ANG MO KIO AVE 10',
+                font: 'narrow'
+            },
+            {
+                text: 'ANG MO KIO AVE 3',
+                font: 'narrow'
+            }
+        ]
+    },
     3333: {
         renderType: 'full',
         text: 'FREE SHUTTLE'
@@ -1425,21 +1545,57 @@ EDSDataSet['SBST'] = {
         },
         scrolls: [
             {
-                "text": "UPPER THOMSON RD",
-                "font": "narrow"
-            },
-            {
-                "text": "ANG MO KIO AVE 5",
-                "font": "narrow"
-            },
-            {
                 "text": "YISHUN RING RD",
                 "font": "narrow"
             },
             {
                 "text": "YISHUN AVE 3",
                 "font": "narrow"
-            }// Boo missing data
+            },
+            {
+                "text": "SEMBAWANG RD",
+                "font": "narrow"
+            },
+            {
+                "text": "UPPER THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 5",
+                "font": "narrow"
+            }
+        ]
+    },
+
+    8602: {
+        renderType: 'standardService',
+        serviceNumber: '860',
+        serviceFont: 'full',
+        destination: {
+            text: 'YISHUN INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "ANG MO KIO AVE 5",
+                "font": "narrow"
+            },
+            {
+                "text": "UPPER THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "SEMBAWANG RD",
+                "font": "narrow"
+            },
+            {
+                "text": "YISHUN AVE 3",
+                "font": "narrow"
+            },
+            {
+                "text": "YISHUN RING RD",
+                "font": "narrow"
+            }
         ]
     }
 }
