@@ -129,6 +129,169 @@ EDSTemplateSet['SBST'] = {
 }
 
 EDSDataSet['SBST'] = {
+    41: {
+        renderType: 'int-loopSvc',
+        serviceNumber: '4',
+        serviceFont: 'full',
+        destination: {
+            text: 'TAMPINES INT-CHANGI NTH WAY',
+            font: 'tall'
+        },
+        scrolls: [
+            {
+                "text": "TAMPINES AVE 7",
+                "font": "narrow"
+            },
+            {
+                "text": "FLORA RD",
+                "font": "narrow"
+            },
+            {
+                "text": "CHANGI NORTH WAY",
+                "font": "narrow"
+            },
+            {
+                "text": "FLORA RD",
+                "font": "narrow"
+            },
+            {
+                "text": "TAMPINES AVE 7",
+                "font": "narrow"
+            }
+        ]
+    },
+    561: {
+        renderType: 'int-loopSvc',
+        serviceNumber: '56',
+        serviceFont: 'full',
+        destination: {
+            text: 'BISHAN INT-MARINA CTR TER',
+            font: 'tall'
+        },
+        scrolls: [
+            {
+                "text": "BISHAN ST 13",
+                "font": "narrow"
+            },
+            {
+                "text": "LOR 6 TOA PAYOH",
+                "font": "narrow"
+            },
+            {
+                "text": "THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "BUKIT TIMAH RD",
+                "font": "narrow"
+            },
+            {
+                "text": "MIDDLE RD",
+                "font": "narrow"
+            }
+        ]
+    },
+    711: {
+        renderType: 'int-loopSvc',
+        serviceNumber: '71',
+        serviceFont: 'full',
+        destination: {
+            text: 'YCK INT-BISHAN ST 11',
+            font: 'narrow'
+        },
+        scrolls: [
+            {
+                "text": "ANG MO KIO AVE 4",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 1",
+                "font": "narrow"
+            },
+            {
+                "text": "BISHAN RD",
+                "font": "narrow"
+            },
+            {
+                "text": "BRADDELL RD",
+                "font": "narrow"
+            },
+            {
+                "text": "BISHAN RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 1",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 4",
+                "font": "narrow"
+            }
+        ]
+    },
+    761: {
+        renderType: 'standardService',
+        serviceNumber: '76',
+        serviceFont: 'full',
+        destination: {
+            text: 'EUNOS INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "ANG MO KIO AVE 4",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 3",
+                "font": "narrow"
+            },
+            {
+                "text": "YIO CHU KANG RD",
+                "font": "narrow"
+            },
+            {
+                "text": "UPPER PAYA LEBAR RD",
+                "font": "narrow"
+            },
+            {
+                "text": "PAYA LEBAR RD",
+                "font": "narrow"
+            }
+        ]
+    },
+    762: {
+        renderType: 'standardService',
+        serviceNumber: '76',
+        serviceFont: 'full',
+        destination: {
+            text: 'YIO CHU KANG INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "PAYA LEBAR RD",
+                "font": "narrow"
+            },
+            {
+                "text": "UPPER PAYA LEBAR RD",
+                "font": "narrow"
+            },
+            {
+                "text": "YIO CHU KANG RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 3",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 4",
+                "font": "narrow"
+            }
+        ]
+    },
     1071: {
         renderType: 'standardService',
         serviceNumber: '107',
@@ -155,8 +318,8 @@ EDSDataSet['SBST'] = {
                 "font": "narrow"
             },
             {
-               "text": "BEACH RD",
-               "font": "narrow"
+                "text": "BEACH RD",
+                "font": "narrow"
             }
         ]
     },
@@ -186,8 +349,8 @@ EDSDataSet['SBST'] = {
                 "font": "narrow"
             },
             {
-               "text": "HOUGANG AVE 10",
-               "font": "narrow"
+                "text": "HOUGANG AVE 10",
+                "font": "narrow"
             }
         ]
     },
@@ -221,8 +384,8 @@ EDSDataSet['SBST'] = {
                 "font": "narrow"
             },
             {
-               "text": "TIONG BAHRU RD",
-               "font": "narrow"
+                "text": "TIONG BAHRU RD",
+                "font": "narrow"
             }
         ]
     },
@@ -252,16 +415,16 @@ EDSDataSet['SBST'] = {
                 "font": "narrow"
             },
             {
-               "text": "ORCHARD BLVD",
-               "font": "narrow"
+                "text": "ORCHARD BLVD",
+                "font": "narrow"
             },
             {
-               "text": "HOLLAND RD",
-               "font": "narrow"
+                "text": "HOLLAND RD",
+                "font": "narrow"
             },
             {
-               "text": "QUEENSWAY",
-               "font": "narrow"
+                "text": "QUEENSWAY",
+                "font": "narrow"
             }
         ]
     },
@@ -291,16 +454,16 @@ EDSDataSet['SBST'] = {
                 "font": "narrow"
             },
             {
-               "text": "TIONG BAHRU RD",
-               "font": "narrow"
+                "text": "TIONG BAHRU RD",
+                "font": "narrow"
             },
             {
-               "text": "LOWER DELTA RD",
-               "font": "narrow"
+                "text": "LOWER DELTA RD",
+                "font": "narrow"
             },
             {
-               "text": "BUKIT PURMEI AVE",
-               "font": "narrow"
+                "text": "BUKIT PURMEI AVE",
+                "font": "narrow"
             }
         ]
     },
@@ -326,8 +489,8 @@ EDSDataSet['SBST'] = {
                 "font": "narrow"
             },
             {
-               "text": "LOWER DELTA RD",
-               "font": "narrow"
+                "text": "LOWER DELTA RD",
+                "font": "narrow"
             }
         ]
     },
@@ -357,8 +520,8 @@ EDSDataSet['SBST'] = {
                 "font": "narrow"
             },
             {
-               "text": "ORCHARD RD",
-               "font": "narrow"
+                "text": "ORCHARD RD",
+                "font": "narrow"
             }
         ]
     },
@@ -371,7 +534,7 @@ EDSDataSet['SBST'] = {
             font: 'thin2'
         },
         scrolls: [
-             {
+            {
                 "text": "TELOK BLANGAH HTS",
                 "font": "narrow"
             },
@@ -388,8 +551,336 @@ EDSDataSet['SBST'] = {
                 "font": "narrow"
             },
             {
-               "text": "MOULMEIN RD",
-               "font": "narrow"
+                "text": "MOULMEIN RD",
+                "font": "narrow"
+            }
+        ]
+    },
+    1291: {
+        renderType: 'standardService',
+        serviceNumber: '129',
+        serviceFont: 'full',
+        destination: {
+            text: "ST MICHAEL'S TER",
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "TAMPINES AVE 1",
+                "font": "narrow"
+            },
+            {
+                "text": "BRADDELL RD",
+                "font": "narrow"
+            },
+            {
+                "text": "LOR 1 TOA PAYOH",
+                "font": "narrow"
+            },
+            {
+                "text": "BALESTIER RD",
+                "font": "narrow"
+            }
+        ]
+    },
+    1292: {
+        renderType: 'standardService',
+        serviceNumber: '129',
+        serviceFont: 'full',
+        destination: {
+            text: 'TAMP CONCOURSE INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "BALESTIER RD",
+                "font": "narrow"
+            },
+            {
+                "text": "LOR 1 TOA PAYOH",
+                "font": "narrow"
+            },
+            {
+                "text": "BRADDELL RD",
+                "font": "narrow"
+            },
+            {
+                "text": "TAMPINES AVE 1",
+                "font": "narrow"
+            }
+        ]
+    },
+    1351: {
+        renderType: 'standardService',
+        serviceNumber: '135',
+        serviceFont: 'full',
+        destination: {
+            text: 'SIGLAP RD',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "ANG MO KIO AVE 8",
+                "font": "narrow"
+            },
+            {
+                "text": "SERANGOON AVE 2",
+                "font": "narrow"
+            },
+            {
+                "text": "UPP ALJUNIED RD",
+                "font": "narrow"
+            },
+            {
+                "text": "TANJONG KATONG RD",
+                "font": "narrow"
+            },
+            {
+                "text": "MARINE PARADE RD",
+                "font": "narrow"
+            }
+        ]
+    },
+    1352: {
+        renderType: 'standardService',
+        serviceNumber: '135',
+        serviceFont: 'full',
+        destination: {
+            text: 'ANG MO KIO INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "MARINE PARADE RD",
+                "font": "narrow"
+            },
+            {
+                "text": "TANJONG KATONG RD",
+                "font": "narrow"
+            },
+            {
+                "text": "UPP ALJUNIED RD",
+                "font": "narrow"
+            },
+            {
+                "text": "SERANGOON AVE 2",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 8",
+                "font": "narrow"
+            }
+        ]
+    },
+    1511: {
+        renderType: 'standardService',
+        serviceNumber: '151',
+        serviceFont: 'full',
+        destination: {
+            text: 'KENT RIDGE TER',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "HOUGANG AVE 3",
+                "font": "narrow"
+            },
+            {
+                "text": "MACPHERSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "JALAN TOA PAYOH",
+                "font": "narrow"
+            },
+            {
+                "text": "BUKIT TIMAH RD",
+                "font": "narrow"
+            },
+            {
+                "text": "CLEMENTI RD",
+                "font": "narrow"
+            },
+            {
+                "text": "KENT RIDGE CRES",
+                "font": "narrow"
+            }
+        ]
+    },
+    1512: {
+        renderType: 'standardService',
+        serviceNumber: '151',
+        serviceFont: 'full',
+        destination: {
+            text: 'HOUGANG CTRL INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "KENT RIDGE CRES",
+                "font": "narrow"
+            },
+            {
+                "text": "CLEMENTI RD",
+                "font": "narrow"
+            },
+            {
+                "text": "DUNEARN RD",
+                "font": "narrow"
+            },
+            {
+                "text": "JALAN TOA PAYOH",
+                "font": "narrow"
+            },
+            {
+                "text": "MACPHERSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "HOUGANG AVE 3",
+                "font": "narrow"
+            }
+        ]
+    },
+    1518: {
+        renderType: 'expSvc',
+        serviceNumber: '151e',
+        serviceFont: 'full',
+        text: 'EXPRESS 151e'
+    },
+    1519: {
+        renderType: 'expSvc',
+        serviceNumber: '151e',
+        serviceFont: 'full',
+        text: 'EXPRESS 151e'
+    },
+    1661: {
+        renderType: 'standardService',
+        serviceNumber: '166',
+        serviceFont: 'full',
+        destination: {
+            text: 'CLEMENTI INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "ANG MO KIO AVE 3",
+                "font": "narrow"
+            },
+            {
+                "text": "UPP THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "NEW BRIDGE RD",
+                "font": "narrow"
+            },
+            {
+                "text": "KAMPONG BAHRU RD",
+                "font": "narrow"
+            },
+            {
+                "text": "TELOK BLANGAH RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ALEXANDRA RD",
+                "font": "narrow"
+            },
+            {
+                "text": "C'WEALTH AVE WEST",
+                "font": "narrow"
+            }
+        ]
+    },
+
+    1621: {
+        renderType: 'standardService',
+        serviceNumber: '162',
+        serviceFont: 'full',
+        destination: {
+            text: 'SHENTON WAY TER',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "ANG MO KIO AVE 6",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 8",
+                "font": "narrow"
+            },
+            {
+                "text": "BISHAN ST 22",
+                "font": "narrow"
+            },
+            {
+                "text": "SIN MING AVE",
+                "font": "narrow"
+            },
+            {
+                "text": "UPPER THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ORCHARD RD",
+                "font": "narrow"
+            },
+            {
+                "text": "BRAS BASAH RD",
+                "font": "narrow"
+            }
+        ]
+    },
+    1662: {
+        renderType: 'standardService',
+        serviceNumber: '166',
+        serviceFont: 'full',
+        destination: {
+            text: 'ANG MO KIO INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "C'WEALTH AVE WEST",
+                "font": "narrow"
+            },
+            {
+                "text": "ALEXANDRA RD",
+                "font": "narrow"
+            },
+            {
+                "text": "TELOK BLANGAH RD",
+                "font": "narrow"
+            },
+            {
+                "text": "KAMPONG BAHRU RD",
+                "font": "narrow"
+            },
+            {
+                "text": "EU TONG SEN ST",
+                "font": "narrow"
+            },
+            {
+                "text": "THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "UPP THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 3",
+                "font": "narrow"
             }
         ]
     },
@@ -727,6 +1218,37 @@ EDSDataSet['SBST'] = {
             }
         ]
     },
+    2611: {
+       renderType: 'standardService',
+       serviceNumber: '261',
+       serviceFont: 'full',
+       destination: {
+           text: 'ANG MO KIO INT',
+           font: 'thin2'
+       },
+       scrolls: [
+           {
+               text: 'ANG MO KIO AVE 3',
+               font: 'narrow'
+           },
+           {
+               text: 'ANG MO KIO AVE 10',
+               font: 'narrow'
+           },
+           {
+               text: 'ANG MO KIO IND PK 1',
+               font: 'narrow'
+           },
+           {
+               text: 'ANG MO KIO AVE 10',
+               font: 'narrow'
+           },
+           {
+               text: 'ANG MO KIO AVE 3',
+               font: 'narrow'
+           }
+       ]
+   },
     3333: {
         renderType: 'full',
         text: 'FREE SHUTTLE'
