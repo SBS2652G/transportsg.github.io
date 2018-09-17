@@ -1318,50 +1318,7 @@ EDSDataSet['SBST'] = {
         serviceFont: 'full',
         text: 'EXPRESS 151e'
     },
-    1661: {
-        renderType: 'standardService',
-        serviceNumber: '166',
-        serviceFont: 'full',
-        destination: {
-            text: 'CLEMENTI INT',
-            font: 'thin2'
-        },
-        scrolls: [
-            {
-                "text": "ANG MO KIO AVE 3",
-                "font": "narrow"
-            },
-            {
-                "text": "UPP THOMSON RD",
-                "font": "narrow"
-            },
-            {
-                "text": "THOMSON RD",
-                "font": "narrow"
-            },
-            {
-                "text": "NEW BRIDGE RD",
-                "font": "narrow"
-            },
-            {
-                "text": "KAMPONG BAHRU RD",
-                "font": "narrow"
-            },
-            {
-                "text": "TELOK BLANGAH RD",
-                "font": "narrow"
-            },
-            {
-                "text": "ALEXANDRA RD",
-                "font": "narrow"
-            },
-            {
-                "text": "C'WEALTH AVE WEST",
-                "font": "narrow"
-            }
-        ]
-    },
-
+    
     1621: {
         renderType: 'standardService',
         serviceNumber: '162',
@@ -1401,6 +1358,148 @@ EDSDataSet['SBST'] = {
             },
             {
                 "text": "BRAS BASAH RD",
+                "font": "narrow"
+            }
+        ]
+    },
+     1622: {
+        renderType: 'standardService',
+        serviceNumber: '162',
+        serviceFont: 'full',
+        destination: {
+            text: 'YIO CHU KANG INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "STAMFORD RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ORCHARD TURN",
+                "font": "narrow"
+            },
+            {
+                "text": "THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "UPPER THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "SIN MING AVE",
+                "font": "narrow"
+            },
+            {
+                "text": "BISHAN ST 22",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 8",
+                "font": "narrow"
+            },
+
+            {
+                "text": "ANG MO KIO AVE 6",
+                "font": "narrow"
+            }
+        ]
+  },
+    1623: {
+        renderType: 'int-loopSvc',
+        serviceNumber: '162M',
+        serviceFont: 'full',
+        destination: {
+            text: 'YCK INT-MARINA CTR',
+            font: 'narrow'
+        },
+        scrolls: [
+            {
+                "text": "ANG MO KIO AVE 6",
+                "font": "narrow"
+            },
+            {
+                "text": "BISHAN ST 22",
+                "font": "narrow"
+            },
+            {
+                "text": "SIN MING AVE",
+                "font": "narrow"
+            },
+            {
+                "text": "THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ORCHARD RD",
+                "font": "narrow"
+            },
+            {
+                "text": "TEMASEK AVE",
+                "font": "narrow"
+            },
+            {
+                "text": "ORCHARD TURN",
+                "font": "narrow"
+            },
+            {
+                "text": "THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "SIN MING AVE",
+                "font": "narrow"
+            },
+            {
+                "text": "BISHAN ST 22",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 6",
+                "font": "narrow"
+            }
+        ]
+    },
+    1661: {
+        renderType: 'standardService',
+        serviceNumber: '166',
+        serviceFont: 'full',
+        destination: {
+            text: 'CLEMENTI INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "ANG MO KIO AVE 3",
+                "font": "narrow"
+            },
+            {
+                "text": "UPP THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "NEW BRIDGE RD",
+                "font": "narrow"
+            },
+            {
+                "text": "KAMPONG BAHRU RD",
+                "font": "narrow"
+            },
+            {
+                "text": "TELOK BLANGAH RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ALEXANDRA RD",
+                "font": "narrow"
+            },
+            {
+                "text": "C'WEALTH AVE WEST",
                 "font": "narrow"
             }
         ]
@@ -1536,6 +1635,41 @@ EDSDataSet['SBST'] = {
         serviceFont: 'full',
         text: 'FAST FORWARD 174'
     },
+
+    2011: {
+        renderType: 'int-loopSvc',
+        serviceNumber: '201',
+        serviceFont: 'full',
+        destination: {
+            text: 'KENT RIDGE - PANDAN GDNS',
+            font: 'narrow'
+        },
+        scrolls: [
+            {
+                "text": "WEST COAST RD",
+                "font": "narrow"
+            },
+            {
+                "text": "C'WEALTH AVE WEST",
+                "font": "narrow"
+            },
+            {
+                "text": "TEBAN GARDENS RD",
+                "font": "narrow"
+            },
+            {
+                "text": "PANDAN GARDENS",
+                "font": "narrow"
+            },
+            {
+                "text": "C'WEALTH AVE WEST",
+                "font": "narrow"
+            },
+            {
+                "text": "WEST COAST RD",
+                "font": "narrow"
+            }
+        ]
     2222: {
         renderType: 'image',
         text: 'SBS TRANSIT',
